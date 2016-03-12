@@ -1,6 +1,6 @@
 {
   "name": "passport-dingtalk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "dingtalk authentication strategy for Passport.",
   "author": { "name": "along", "email": "bpd729@gmail.com", "url": "http://github.com/baipgydx729" },
   "repository": {
