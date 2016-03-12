@@ -1,12 +1,10 @@
 # passport-dingtalk
 dingtalk authentication strategy for passport
 
-copied from [Passport-github](https://github.com/jaredhanson/passport-github) by [Jared Hanson](http://github.com/jaredhanson)
 
-[Passport](http://passportjs.org/) strategy for authenticating with [qq](http://qq.com/)
 using the OAuth 2.0 API.
 
-This module lets you authenticate using qq in your Node.js applications.
+This module lets you authenticate using dingtalk in your Node.js applications.
 By plugging into Passport, qq authentication can be easily and
 unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
