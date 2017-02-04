@@ -2,7 +2,18 @@
   "name": "passport-dingtalk",
   "version": "1.0.0",
   "description": "dingtalk authentication strategy for Passport.",
-  "author": [{ "name": "along", "email": "bpd729@gmail.com", "url": "http://github.com/baipgydx729" },{"name":"megrez", "email": "lujiajing1126@gmail.com","url":"http://www.coder.dog/"}],
+  "author": [
+    {
+      "name": "along",
+      "email": "bpd729@gmail.com",
+      "url": "http://github.com/baipgydx729"
+    },
+    {
+      "name": "megrez",
+      "email": "lujiajing1126@gmail.com",
+      "url": "http://www.coder.dog/"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/lujiajing1126/passport-dingtalk.git"
@@ -12,8 +23,8 @@
   },
   "main": "./lib/passport-dingtalk",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth2": "1.x.x"
+    "passport-oauth": "^1.0.0",
+    "pkginfo": "0.2.x"
   },
   "devDependencies": {
     "vows": "0.6.x"
@@ -21,10 +32,21 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
-  "keywords": ["passport", "dingtalk", "auth", "authn", "authentication", "identity"]
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "passport",
+    "dingtalk",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ]
 }
