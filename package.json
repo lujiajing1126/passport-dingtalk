@@ -13,7 +13,7 @@
   "main": "./lib/passport-dingtalk",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-oauth": "1.x.x"
+    "passport-oauth2": "1.x.x"
   },
   "devDependencies": {
     "vows": "0.6.x"
