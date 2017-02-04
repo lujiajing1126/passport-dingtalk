@@ -1,11 +1,11 @@
 {
   "name": "passport-dingtalk",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "dingtalk authentication strategy for Passport.",
-  "author": { "name": "along", "email": "bpd729@gmail.com", "url": "http://github.com/baipgydx729" },
+  "author": [{ "name": "along", "email": "bpd729@gmail.com", "url": "http://github.com/baipgydx729" },{"name":"megrez", "email": "lujiajing1126@gmail.com","url":"http://www.coder.dog/"}],
   "repository": {
     "type": "git",
-    "url": "http://github.com/baipgydx729/passport-dingtalk.git"
+    "url": "http://github.com/lujiajing1126/passport-dingtalk.git"
   },
   "bugs": {
     "url": "http://github.com/baipgydx729/passport-dingtalk/issues"
@@ -13,7 +13,7 @@
   "main": "./lib/passport-dingtalk",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-oauth": "0.1.x"
+    "passport-oauth": "1.x.x"
   },
   "devDependencies": {
     "vows": "0.6.x"
