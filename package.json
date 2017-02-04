@@ -23,6 +23,7 @@
   },
   "main": "./lib/passport-dingtalk",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "passport-oauth": "^1.0.0",
     "pkginfo": "0.2.x"
   },
